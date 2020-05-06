@@ -1,3 +1,129 @@
-body {
+@font-face {
+    font-family: 'Peace Sans';
+    src: url('fonts/Peace_Sans.otf');
+}
+
+:root {
+    --main: #494949;
+    --second: #BC2E3A;
+    --highlighted: orange;
+    --complementary: white;
+    --gray: #F5F5F5;
+}
+
+.heading {
+    font-family: 'Peace Sans', sans-serif;
+    font-size: 60px;
+    color: var(--main);
+}
+
+.paragraph {
     font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: var(--main);
+    line-height: 1.7;
+}
+
+
+.button {
+    background-color: var(--second);
+    color: var(--complementary);
+    font-size: 20px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 55px;
+    border-radius: 27px;
+    padding: 0 40px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: var(--highlighted);
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: content-box;
+}
+
+.section-2 {
+    background-color: white;
+}
+
+.section-2__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-2 .heading {
+    margin-bottom: 50px;
+}
+
+.section-2 .paragraph {
+    margin-bottom: 50px;
+    width: 470px;
+}
+
+.macbook {
+    position: relative;
+    width: 100%;
+}
+
+.macbook img {
+    width: 100%;
+}
+
+.section-3 {
+    background-color: var(--gray);
+}
+
+.section-3__inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-3 h2 {
+    text-align: center;
+}
+
+.section-3__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section-4 {
+    background-color: white;
+}
+
+.section-4__inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.section-4 .heading {
+    margin-bottom: 50px;
+}
+
+.section-4 .paragraph {
+    margin-bottom: 50px;
+    width: 295px;
+}
+.section-4__container{
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    left: 400px;
+}
+
+.section-5 h2 {
+    text-align: center;
 }
