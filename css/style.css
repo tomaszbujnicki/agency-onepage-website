@@ -11,45 +11,72 @@
     --gray: #F5F5F5;
 }
 
-.heading {
-    font-family: 'Peace Sans', sans-serif;
-    font-size: 60px;
+html {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.15;
     color: var(--main);
 }
 
-.paragraph {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    color: var(--main);
+/* Extra small devices (portrait phones, less than 576px) */
+/* @under 576 */
+
+h2 {
+    font-family: 'Peace Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.0625rem;
     line-height: 1.7;
 }
 
-
 .button {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
     background-color: var(--second);
     color: var(--complementary);
-    font-size: 20px;
     font-family: "Lato";
     text-transform: uppercase;
     font-weight: bold;
-    height: 55px;
-    border-radius: 27px;
-    padding: 0 40px;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
-.button:hover {
-    background-color: var(--highlighted);
 }
 
-.wrapper {
-    max-width: 1200px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: content-box;
+.button:hover {
+    background-color: var(--highlighted);
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
+
+.text-center {
+    text-align: center;
+}
+
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+.section-paragraph {
+    margin-bottom: 2rem;
+}
+.macbook{
+    margin-top: 3rem;
+}
+
+
+    .about-us > .row{
+        max-width: 44rem;
+    }
+    .about-us .macbook{
+        max-width: 36rem;
+    }
 
 .section-2 {
     background-color: white;
@@ -68,7 +95,7 @@
 
 .section-2 .paragraph {
     margin-bottom: 50px;
-    width: 470px;
+    /* width: 470px; */
 }
 
 .macbook {
@@ -117,25 +144,31 @@
     margin-bottom: 50px;
     width: 295px;
 }
-.section-4__container{
-    display: flex;
+
+.section-4__container {
+    display: none;
     position: absolute;
     bottom: 80px;
     left: 400px;
 }
+
 .section-5 {
     background-color: var(--gray);
 }
+
 .section-5__inner {
     padding-top: 100px;
     position: relative;
 }
+
 .section-5 h2 {
     text-align: center;
 }
-.owl-carousel{
+
+.section-5 {
     box-sizing: border-box;
     padding: 20px 60px;
+    display: none;
 }
 
 .section-6__inner {
@@ -144,6 +177,7 @@
     position: relative;
 
 }
+
 .section-6 h2 {
     margin-bottom: 50px;
 }
@@ -152,6 +186,7 @@
     display: flex;
     justify-content: space-between;
 }
-.container_right{
+
+.container_right {
     width: 50%;
 }
