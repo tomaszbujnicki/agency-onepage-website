@@ -16,7 +16,8 @@
 
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.diamond.css">
+
+	<link rel="stylesheet" href="css/owl.diamond.css">
 
 	<link rel="stylesheet" href="css/style.css">
 
@@ -36,26 +37,31 @@
 
 	<section id="about-us" class="about-us">
 		<div class="row">
-				<div class="column lg-5 xl-4">
-					<h2 class="section-header">Who we are</h2>
-					<p class="section-paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-						doloremque
-						laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-						beatae
-						vitae dicta sunt explicabo. </p>
-					<button class="button">Read more</button>
-				</div>
-				<div class="macbook lg-fill">
-					<img class="" src="img/notebook.png" alt="">
-				</div>
+			<div class="about-us__1 column">
+				<img class="" src="img/notebook.png" alt="">
+			</div>
+			<div class="about-us__2 column">
+				<h2 class="section-heading">Who we are</h2>
+				<p class="section-paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+					doloremque
+					laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+					beatae
+					vitae dicta sunt explicabo. </p>
+				<button class="button">Read more</button>
+			</div>
+
 		</div>
 	</section>
 
-	<section id="section-3" class="section-3">
-		<div class="wrapper">
-			<div class="section-3__inner">
-				<h2 class="heading">What we do</h2>
-				<ul class="section-3__container">
+	<section id="services" class="services">
+		<div class="row">
+			<div class="column">
+				<h2 class="section-heading text-center">What we do</h2>
+			</div>
+			<div class="column">
+
+
+				<ul>
 
 					<li class="service-card">
 						<div class="service-card__circle"><img class="" src="img/icon-flag.png" alt=""></div>
@@ -110,7 +116,7 @@
 					<li class="service-card">
 						<div class="service-card__circle"><img class="" src="img/icon-mail.png" alt=""></div>
 						<div>
-							<h3 class="service-card__heading">Great section-3__container</h3>
+							<h3 class="service-card__heading">Great Services</h3>
 							<span class="service-card__description">Sed ut perspiciatis unde omnis iste natus error sit
 								voluptatem
 								accusantium
@@ -123,15 +129,26 @@
 		</div>
 	</section>
 
-	<section id="section-4" class="section-4">
-		<div class="wrapper">
-			<div class="section-4__inner">
-				<ul class="section-4__container">
+	<section id="process" class="process">
+		<div class="row">
+			<div class="process__1 column">
+				<h2 class="section-heading">How we works</h2>
+				<p class="section-paragraph">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus
+					antium
+					dolo remque laudan tium.Sed ut per spicia tis unde omnis iste natus error sit volup tatem accus
+					antium
+					dolo remque laudan tium.</p>
+
+
+				<div class="picture-tip"><span class="hover">Hover over</span><span class="tap">Tap</span> the picture
+					to view details.</div>
+
+				<ul class="process-images">
 
 					<li class="skew">
 						<div class="skew__image skew__image--1">
 							<div class="skew__dark">
-								<span class="skew__number">1.</span>
+								<div class="skew__number">1.</div>
 								<article class="skew__article">
 									<h3 class="skew__heading">IDEA</h3>
 									<p class="skew__description">Sed ut perspiciatis unde omnis iste natus error sit
@@ -144,7 +161,7 @@
 					<li class="skew">
 						<div class="skew__image skew__image--2">
 							<div class="skew__dark">
-								<span class="skew__number">2.</span>
+								<div class="skew__number">2.</div>
 								<article class="skew__article">
 									<h3 class="skew__heading">DESIGN</h3>
 									<p class="skew__description">Sed ut perspiciatis unde omnis iste natus error sit
@@ -157,7 +174,7 @@
 					<li class="skew">
 						<div class="skew__image skew__image--3">
 							<div class="skew__dark">
-								<span class="skew__number">3.</span>
+								<div class="skew__number">3.</div>
 								<article class="skew__article">
 									<h3 class="skew__heading">OUTPUT</h3>
 									<p class="skew__description">Sed ut perspiciatis unde omnis iste natus error sit
@@ -168,133 +185,99 @@
 					</li>
 				</ul>
 
-
-				<h2 class="heading">How we works</h2>
-				<p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit volu ptatem accus antium
-					dolo remque laudan tium.Sed ut per spicia tis unde omnis iste natus error sit volup tatem accus
-					antium
-					dolo remque laudan tium.</p>
 				<button class="button">Read more</button>
 			</div>
 		</div>
-
 	</section>
 
 	<section id="section-5" class="section-5">
 		<div class="wrapper">
-			<div class="section-5__inner">
-				<h2 class="heading">Our creative team</h2>
+			<h2 class="section-heading">Our creative team</h2>
 
 
 
-				<div class="owl-carousel">
+			<div class="owl-carousel">
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--1">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--1">
+							<div class="diamond__dark">
 							</div>
-						</div>
-						<div class="team-member carousel-item__signature">
-							<h3 class="team-member__name">Jessica Screen</h3>
-							<span class="team-member__job">Photographer</span>
 						</div>
 					</div>
+					<div class="team-member">
+						<h3 class="team-member__name">Jessica Screen</h3>
+						<span class="team-member__job">Photographer</span>
+					</div>
+				</div>
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--2">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--2">
+							<div class="diamond__dark">
 							</div>
-						</div>
-						<div class="team-member  carousel-item__signature">
-							<h3 class="team-member__name">Xayah Feather</h3>
-							<span class="team-member__job">Public relations</span>
 						</div>
 					</div>
+					<div class="team-member ">
+						<h3 class="team-member__name">Xayah Feather</h3>
+						<span class="team-member__job">Public relations</span>
+					</div>
+				</div>
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--3">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--3">
+							<div class="diamond__dark">
 							</div>
-						</div>
-						<div class="team-member  carousel-item__signature">
-							<h3 class="team-member__name">Anthony Toll</h3>
-							<span class="team-member__job">Programmer</span>
 						</div>
 					</div>
+					<div class="team-member ">
+						<h3 class="team-member__name">Anthony Toll</h3>
+						<span class="team-member__job">Programmer</span>
+					</div>
+				</div>
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--4">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--4">
+							<div class="diamond__dark">
 							</div>
-						</div>
-						<div class="team-member  carousel-item__signature">
-							<h3 class="team-member__name">Liz Stone</h3>
-							<span class="team-member__job">Manager</span>
 						</div>
 					</div>
+					<div class="team-member ">
+						<h3 class="team-member__name">Liz Stone</h3>
+						<span class="team-member__job">Manager</span>
+					</div>
+				</div>
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--5">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--5">
+							<div class="diamond__dark">
 							</div>
-						</div>
-						<div class="team-member  carousel-item__signature">
-							<h3 class="team-member__name">Caitlyn Bullet</h3>
-							<span class="team-member__job">Copywriter</span>
 						</div>
 					</div>
+					<div class="team-member ">
+						<h3 class="team-member__name">Caitlyn Bullet</h3>
+						<span class="team-member__job">Copywriter</span>
+					</div>
+				</div>
 
-					<div class="carousel-item">
-						<div class="diamond">
-							<div class="diamond__image diamond__image--6">
-								<div class="diamond__dark">
-								</div>
+				<div class="carousel-item">
+					<div class="diamond">
+						<div class="diamond__image diamond__image--6">
+							<div class="diamond__dark">
 							</div>
 						</div>
-						<div class="team-member  carousel-item__signature">
-							<h3 class="team-member__name">Tania Sky</h3>
-							<span class="team-member__job">Designer</span>
-						</div>
+					</div>
+					<div class="team-member ">
+						<h3 class="team-member__name">Tania Sky</h3>
+						<span class="team-member__job">Designer</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<section id="section-6" class="section-6">
-		<div class="wrapper">
-			<div class="section-6__inner">
-				<h2 class="heading">What client says</h2>
-				<div class="section-6__container">
-					<div class="diamond diamond--shadow">
-						<div class="diamond__image diamond__image--7">
-							<div class="diamond__dark">
-							</div>
-						</div>
-					</div>
-					<div class="container_right">
-						<p>
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-							laudantium.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-							doloremque laudantium.
-						</p>
-						<span>Jinny Snow, Company CEO</span>
-					</div>
-				</div>
-			</div>
-
-	</section>
-
 
 
 

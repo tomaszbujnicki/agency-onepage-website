@@ -1,7 +1,7 @@
 .service-card {
-    width: 33%;
+    width: 380px;
     display: flex;
-    margin-top: 85px;
+    margin: 40px 10px;
 }
 
 .service-card__circle {
@@ -15,8 +15,8 @@
     margin-right: 10px;
 }
 .service-card__circle img{
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 50%;
+    max-height: 50%;
 }
 .service-card__heading {
     font-family: 'Open Sans', sans-serif;
@@ -31,4 +31,15 @@
     font-size: 17px;
     color: var(--main);
     line-height: 1.7;
+}
+
+@media (max-width: 576px) {
+    .service-card{
+        flex-direction: column;
+        align-items: center;
+        width: 315px;
+    }
+    .service-card__heading {
+        text-align: center;
+    }
 }

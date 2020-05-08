@@ -16,8 +16,12 @@ html {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.15;
     color: var(--main);
+    background-color: brown;
 }
 
+img {
+    width: 100%;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 /* @under 576 */
 
@@ -54,122 +58,75 @@ p {
 }
 
 section{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-
-.section-header {
+.section-heading {
     margin-bottom: 2rem;
+    text-align: center;
 }
 .section-paragraph {
     margin-bottom: 2rem;
+    max-width: 36rem;
 }
-.macbook{
-    margin-top: 3rem;
-}
-
-
-    .about-us > .row{
-        max-width: 44rem;
-    }
-    .about-us .macbook{
-        max-width: 36rem;
-    }
-
-.section-2 {
+.about-us{
     background-color: white;
 }
+.about-us__1{
+    margin-bottom: 2rem;
+}
 
-.section-2__inner {
+.about-us__2{
     display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section-2 .heading {
-    margin-bottom: 50px;
-}
-
-.section-2 .paragraph {
-    margin-bottom: 50px;
-    /* width: 470px; */
-}
-
-.macbook {
-    position: relative;
-    width: 100%;
-}
-
-.macbook img {
-    width: 100%;
-}
-
-.section-3 {
+.services {
     background-color: var(--gray);
 }
 
-.section-3__inner {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.section-3 h2 {
-    text-align: center;
-}
-
-.section-3__container {
+.services ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.section-4 {
+/*  */
+.process{
     background-color: white;
 }
-
-.section-4__inner {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    position: relative;
+.process__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.section-4 .heading {
-    margin-bottom: 50px;
+.process-images{
+    margin-bottom: 2rem;
+    width: 100%;
 }
-
-.section-4 .paragraph {
-    margin-bottom: 50px;
-    width: 295px;
+.picture-tip{
+    padding: 1rem 0;
 }
-
-.section-4__container {
+.tap{
     display: none;
-    position: absolute;
-    bottom: 80px;
-    left: 400px;
 }
+@media (hover: none) {
+    .tap {
+      display: inline;
+    }
+    .hover{
+        display: none;
+    }
+  }
 
 .section-5 {
     background-color: var(--gray);
 }
 
-.section-5__inner {
-    padding-top: 100px;
-    position: relative;
-}
-
-.section-5 h2 {
-    text-align: center;
-}
-
-.section-5 {
-    box-sizing: border-box;
-    padding: 20px 60px;
-    display: none;
-}
 
 .section-6__inner {
     padding-top: 100px;

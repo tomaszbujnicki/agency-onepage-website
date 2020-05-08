@@ -1,5 +1,23 @@
+@media (max-width: 20rem) {
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .button {
+        padding: 0.625rem 1.25rem;
+        font-size: 1rem;
+    }
+
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 36rem) { 
+    .section-paragraph{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -32,7 +50,7 @@
         padding-top: 6rem;
         padding-bottom: 6rem;
     }
-    .section-header {
+    .section-heading {
         margin-bottom: 4rem;
     }
     .section-paragraph {
@@ -47,5 +65,21 @@
     .section-5{
         display: block;
     } */
+    
+.section-4 .heading {
+    margin-bottom: 50px;
 }
+
+.section-4 .paragraph {
+    margin-bottom: 50px;
+    width: 295px;
+}
+
+.section-4__container {
+    display: none;
+    position: absolute;
+    bottom: 80px;
+    left: 400px;
+}
+
 
