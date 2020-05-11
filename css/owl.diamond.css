@@ -6,10 +6,12 @@
     max-width: 240px;
     display: none;
 }
+
 @media (min-width: 17.5rem) {
 
     .team-member {
         display: block;
+    }
 }
 
 

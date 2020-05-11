@@ -2,10 +2,6 @@
     font-family: 'Peace Sans';
     src: url('fonts/Peace_Sans.otf');
 }
-@font-face {
-    font-family: 'Pump Demi';
-    src: url('fonts/Pump_Demi.ttf');
-}
 
 :root {
     --main: #494949;
