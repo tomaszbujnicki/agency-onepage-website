@@ -3,8 +3,16 @@
     color: white;
     position: relative;
     margin: 0 auto;
-    width: 240px;
+    max-width: 240px;
+    display: none;
 }
+@media (min-width: 17.5rem) {
+
+    .team-member {
+        display: block;
+}
+
+
 
 .team-member__name {
     font-size: 18px;

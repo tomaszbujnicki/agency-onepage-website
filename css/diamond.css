@@ -1,6 +1,7 @@
 .diamond {
-    width: 250px;
     height: 250px;
+    max-width: 250px;
+    width: 100%;
 /*     transform: rotate(-45deg);
     overflow: hidden; */
     border: 12px solid white;
