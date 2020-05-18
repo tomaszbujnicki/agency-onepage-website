@@ -94,3 +94,9 @@
 .skew__dark:hover .skew__description {
     display: block;
 }
+
+@media (max-width: 240px) {
+    .skew__heading{
+        font-size: 24px;
+    }
+}

@@ -43,3 +43,12 @@
         text-align: center;
     }
 }
+
+@media (max-width: 240px) {
+    .service-card__heading {
+        font-size: 20px;
+    }
+    .service-card__description{
+        font-size: 14px;
+    }
+}

@@ -76,6 +76,7 @@ section{
 }
 .about-us__1{
     margin-bottom: 2rem;
+    position: relative;
 }
 
 .about-us__2{
@@ -167,3 +168,10 @@ section{
 /* .clients__quotation {
     width: 50%;
 } */    
+
+.screen{
+    position: absolute;
+    width: 67%;
+    top: 4%;
+    left: 16%;
+}
