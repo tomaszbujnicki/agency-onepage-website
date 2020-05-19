@@ -15,7 +15,20 @@
         padding: 0.625rem 1.25rem;
         font-size: 1rem;
     }
+    .home{
+        height: 20rem;
+    }
 
+    .home h1{
+        font-size: 2rem;
+    }
+    .home h2{
+        font-size: 1.5rem;
+    }
+    .home img{
+        width: 200px;
+        bottom: -45px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -24,11 +37,16 @@
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
+    .home h1{
+        font-size: 4rem;
+    }
+    .home h2{
+        font-size: 3rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 48rem) {
-
 
 }
 
@@ -43,6 +61,12 @@
     .macbook{
         max-width: 100%;
         margin-top: 0;
+    }
+    .home h1{
+        font-size: 6.5rem;
+    }
+    .home h2{
+        font-size: 4rem;
     }
 }
 
