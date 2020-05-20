@@ -237,3 +237,53 @@ section{
     top: 4%;
     left: 16%;
 }
+
+footer{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/footer-bg.png);
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+footer section {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer h2{
+    color: #9F9F9F;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact{
+    width: 300px;
+    display: flex;
+    color: var(--complementary);
+    line-height: 1.4;
+    font-size: 1.0625rem;
+}
+.contact__mark{
+    max-width: 55px;
+    max-height: 55px;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.contact__mark img{
+    width: auto;
+    height: auto;
+}
+
+
+.contact h3{
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
