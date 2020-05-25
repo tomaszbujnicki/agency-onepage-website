@@ -264,15 +264,16 @@ footer ul {
 }
 
 .contact{
-    width: 300px;
+    width: 18.75rem;
     display: flex;
     color: var(--complementary);
     line-height: 1.4;
     font-size: 1.0625rem;
+    margin-bottom: 2rem;
 }
 .contact__mark{
-    max-width: 55px;
-    max-height: 55px;
+    max-width: 3.5rem;
+    max-height: 3.5rem;
     margin-right: 1rem;
     margin-top: 0.5rem;
 }
@@ -280,7 +281,6 @@ footer ul {
     width: auto;
     height: auto;
 }
-
 
 .contact h3{
     font-size: 1.375rem;
