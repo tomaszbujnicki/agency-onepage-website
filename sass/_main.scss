@@ -7,14 +7,6 @@
     src: url('../webfonts/LemonMilkbold.otf');
 }
 
-:root {
-    --main: #494949;
-    --second: #bc2e3a;
-    --highlighted: orange;
-    --complementary: white;
-    --gray: #F5F5F5;
-}
-
 html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -108,6 +100,7 @@ section{
     background-image: url(../img/home-bg2.png);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 
