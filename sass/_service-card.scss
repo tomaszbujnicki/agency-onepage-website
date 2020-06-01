@@ -6,7 +6,7 @@
 
 .service-card .circle {
     border-radius: 50%;
-    background-color: var(--second);
+    background-color: $second-color;
     min-width: 75px;
     height: 75px;
     display: flex;

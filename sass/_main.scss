@@ -11,7 +11,7 @@ html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.15;
-    color: var(--main);
+    color: $main-color;
 }
 
 img {
@@ -34,19 +34,19 @@ p {
     border-radius: 2rem;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-    background-color: var(--second);
-    color: var(--complementary);
+    background-color: $second-color;
+    color: $complementary-color;
     font-family: "Lato";
     text-transform: uppercase;
     font-weight: bold;
 }
 .button--second {
-    background-color: var(--complementary);
-    color: var(--main);
+    background-color: $complementary-color;
+    color: $main-color;
 }
 
 .button:hover {
-    background-color: var(--highlighted);
+    background-color: $highlighted-color;
     transition: background-color 0.25s ease-out, color 0.25s ease-out;
 }
 
@@ -136,7 +136,7 @@ section{
 }
 
 .services {
-    background-color: var(--gray);
+    background-color: $gray-color;
 }
 
 .services ul {
@@ -175,7 +175,7 @@ section{
   }
 
 .team {
-    background-color: var(--gray);
+    background-color: $gray-color;
 }
 
 .clients {
@@ -254,7 +254,7 @@ footer ul {
 .contact{
     width: 18.75rem;
     display: flex;
-    color: var(--complementary);
+    color: $complementary-color;
     line-height: 1.4;
     font-size: 1.0625rem;
     margin-bottom: 2rem;
@@ -291,7 +291,7 @@ footer ul {
 .line{
 max-width: 46rem;
 height: 3px;
-background-color: var(--main);
+background-color: $main-color;
 margin: 0 auto;
 }
 .copyright{
